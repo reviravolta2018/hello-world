@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <strong><h2><font = face"verdana">Session 2 - Intro to Programming - HTML notes</font></h2></strong>
+    </div>
+    <br>
+
+    <div>
+      <strong><h2><font = face"verdana">Lesson 2.2 - HTML, CSS and DOM</font></h2></strong>
+      <p>HTML and CSS are both languages, HTML controls the structure of a web page, CSS controls the style of a page, how it looks.<span> DOM (Document Object Model) is the tree like structure of a page, it is a way of representing the hierarchicl nature of a structure in a graphical form.<span> Java Script is the interactive component, everything needs to be attached and we need tools for developing a website.
+      </p>
+    </div>
+    <br>
+
+    <div>
+      <strong><h2><font = face"verdana">Lesson 2.3 - Rectangular Boxes</font></h2></strong>
+      <p>All elements of a structure of a page are <b>rectangular</b> and I can have the same text on the structure as the one that appears on the page.
+      </p>
+    </div>
+    <br>
+
+    <div>
+      <strong><h2><font = face"verdana">Lesson 2.4 - Developer Tools</font></h2></strong>
+      <p>Google Chrome developer tools is found by clicking on settings on the top right corner of any web page, followed by "more tools" and "developer tool"<span class="sp">The page will then split in two, either vertically or horizontally. One half is the opened web page and the other half is where you can inspect elements of the codes used for that page and you can play around with the tools available.</span>When you hover around the code, chrome tells you where the table content is by highlighting it in blue on the page. Another way of knowing where certain code is referring to is by right clicking on the part of the website you want to inspect and select "inspect". It will take you directly to the part of the code that belongs to the highlighted area on the website. <br>You can also right click on a code an select "scroll to vie", it should take you to the exact part of the website that the code refers to. <br>Developer tool is an interactive road map that shows where elements and codes falls in line with each other.
+      <br>Another part of the developer tools is under the "style" sections which is very useful for knowing the size of an element or content by just looking at the box displayed on the far right. <br> You can change the size of a box by changing the numbers in the box. To change a colour, under "style" tool, click near the { symbol and type "background". Choose "background-colour" from the menu that will come up, then click enter. Hit the tab button and another menu will come up with a list of colours. You can scroll down all colours by clicking on Shift + down arrow. <br>To change fonts, sizes or colours on the actual website, right click on the part of the code you want to change and select "edit attribute". That is a great way of playing around with websites and finding your way around the codes. <br> Note that these changes will not effectively change the website, only you will be able to see these changes and once you refresh or close the browser, it will go back to normal on your screen. Developers explore other website elements all the time, as much as inspect and dynamically change styles and that is a great way of understanding the relationship between DOM and CSS.
+      <br>Once inspecting elements of a page, you will find many little arrows. These little arrow expand the tree and reveal hidden parts of the code.
+      </p>
+    </div>
+    <br>
+
+    <div>
+      <strong><h2><font = face"verdana">Lesson 2.5 - Arrow in HTML</font></h2></strong>
+      <p>Sideways arrows are an HTML element, each has an opening and closing tag. It can be a text or another element, for example: &lt;span&gt; or &lt;a&gt;</p>
+      <!--when inspecting elements it is important to click on the sideways arrows in order to expand all elements-->
+    </div>
+    <br>
+
+    <div>
+      <strong><h2><font = face"verdana"></font>Lesson 2.8 - How the Website Works</h2></strong>
+      <p>As a Front End Developer I need to turn images and PDF files into a website with all necessary components, HTML files, CSS files and Java Script files. For that we need to know the conceptual understanding of the way website works. <br>Full explanation as to the concept of how the web works can be found on following link <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works"></a></p>
+    </div>
+    <br>
+
+    <div>
+      <strong><h2><font = face"verdana">Lesson 2.9 - HTML, CSS and DOM</font></h2></strong>
+      <st><h3><font = face"verdana">How the browser knows what style to apply and where that styles comes from</font></h3></st>
+      <p>HTML is the language of the web and it has specific sintax and rules, you write HTML in a document following HTML sintax and rules. <br>The basic word for HTML is tag. The browser turns HTML tags into elements that form a tree. It knows how to do that because of the Document Object Model (DOM) which is a standard convention for representing and interacting with elements in HTML. <br>The tree in a development tool is a DOM tree that the browser built from an HTML document. Each HTML tag creates an element in the DOM that the browser uses to display the page. <br>An element is created from the starting tag to the ending tag and everything in between is content. Example: (opening tag) &ltg;tag&gt; content &lt;/tag&gt; (closing tag). <br>The "content" can be empty, can be text or it can be another element. Each tag has a name or type that defines what kind of element will be created i.e. element can be a paragraph, an image or just a document division. <br><b>Block - </b>Each tag can also have attibutes with values i.e. &lt;h1 class="article"&gt; where "class" is the attribute and "article" is the value of the attribute.
+      <br>CSS allow you to use specific sintax and rules to change how the elements look on the page, the size of the font, colour, background, borders, position and so on. For example, CSS can be used to say that all h1 elements that belongs to class article should have a text colour green &lt;h1 class="article"&gt; <br>To tie style and structure together, the HTML document can provide the browser with information on what style to use and where to get it. To action that, you will need to open a tab on your text editor titled index.html and another titled style.css. You will then write your html code under the index.html tab and style your text under the style.css tab.
+      </p>
+    </div>
+    <br>
+
+    <div>
+      <strong><h2><font = face"verdana">Lesson 2.10 - Boxes</font></h2></strong>
+      <p>Any shape (circle, triangule...) becomes a square when "border radius" is unchecked. Everything turns into a box and it is very important to think everything in terms of boxes when developing a web page <br> A good way to visualise and organise your website is by drawing all the boxes necessary to the page on a piece of paper, starting from the bigger boxes to the smaller ones. <br>
+      <!--this is from Lesson 2.14-->
+      The border-radius CSS property lets you round the corners of an element's outer border edge. You can specify a single radius to make circular corners or two radius to make elliptical corners.*
+      *Extracted from webpage <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius"></a>
+    </p>
+    </div>
+    <br>
+    <!--Lessons 2.11, 2.12, 2.13 and 2.14 were explanations about boxes, however all my notes about it are compressed in Lesson 2.10-->
+
+    <div>
+      <strong><h2><font = face"verdana">Lesson 2.15 - Translating a Web Page in HTML</font></h2></strong>
+      <p>A good way of translating a web page in HTML is by dividing and finding all the boxes in the page. All boxes are defined with "div" tags. <br>To apply style, size, location... we need to give each element a class attribute. "Class attributes" are like label on boxes, something to remind you what is inside the box.
+      </p>
+    </div>
+  </body>
+  </html>
